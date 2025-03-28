@@ -15,7 +15,7 @@ public interface RazorPayRepositry extends JpaRepository<RazorPayOrder, String> 
 	Optional<RazorPayOrder> findByOrderIdAndJobRecruiter_RecruiterId(String orderId, Long recruiterId);
 
  
-    // Custom query method to find RazorPayOrder by recruiterId
+   
 	@Query("SELECT r FROM RazorPayOrder r WHERE r.jobRecruiter.recruiterId = :recruiterId AND r.isActive = true")
 	List<RazorPayOrder> findPaymentDetails(@Param("recruiterId") Long recruiterId);
 }

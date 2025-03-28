@@ -1638,3 +1638,691 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-09T00:56:19Z. Curren
 28-03-2025_15:24:07.723{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
 28-03-2025_15:24:07.724{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
 28-03-2025_15:24:07.758{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+28-03-2025_19:44:25.950{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+28-03-2025_19:44:25.968{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 21.0.6 on DESKTOP-2JRH28M with PID 87136 (C:\Yash Patel\Bitlab-workspace\bitLabs-web-application\target\classes started by Patel in C:\Yash Patel\Bitlab-workspace\bitLabs-web-application)
+28-03-2025_19:44:25.968{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+28-03-2025_19:44:25.969{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+28-03-2025_19:44:27.296{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-03-2025_19:44:27.456{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 147 ms. Found 37 JPA repository interfaces.
+28-03-2025_19:44:28.455{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+28-03-2025_19:44:28.464{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_19:44:28.464{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+28-03-2025_19:44:28.465{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+28-03-2025_19:44:28.616{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+28-03-2025_19:44:28.617{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2587 ms
+28-03-2025_19:44:31.884{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+28-03-2025_19:44:32.464{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f7fcec2
+28-03-2025_19:44:32.468{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+28-03-2025_19:44:32.618{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+28-03-2025_19:44:32.713{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+28-03-2025_19:44:32.947{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-03-2025_19:44:33.191{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-03-2025_19:44:46.125{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-03-2025_19:44:46.145{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_19:44:46.734{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+28-03-2025_19:44:46.782{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-03-2025_19:44:47.404{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+28-03-2025_19:44:47.465{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+28-03-2025_19:44:50.276{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76982efa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79571cc5, org.springframework.security.web.context.SecurityContextPersistenceFilter@592e29ae, org.springframework.security.web.header.HeaderWriterFilter@29e7da9c, org.springframework.security.web.authentication.logout.LogoutFilter@97f2dbb, com.talentstream.filter.JwtRequestFilter@1e686da2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33e2ecae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@279afa1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b83476f, org.springframework.security.web.session.SessionManagementFilter@38b1101c, org.springframework.security.web.access.ExceptionTranslationFilter@57a4ca74, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@acc6a69]
+28-03-2025_19:44:50.659{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_19:44:50.663{UTC}|report-tool|WARN ||o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+28-03-2025_19:44:50.688{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_19:44:50.690{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+28-03-2025_19:44:50.912{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+28-03-2025_19:44:50.914{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_19:44:50.916{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+28-03-2025_19:44:50.920{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [idle-connection-reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper$ReaperTask.run(IdleConnectionReaper.java:151)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_19:44:50.921{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_19:44:50.922{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_19:44:50.934{UTC}|report-tool|INFO ||o.s.b.a.l.ConditionEvaluationReportLoggingListener|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+28-03-2025_19:44:50.956{UTC}|report-tool|ERROR||o.s.b.d.LoggingFailureAnalysisReporter|
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+28-03-2025_20:37:22.969{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+28-03-2025_20:37:22.983{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 21.0.6 on DESKTOP-2JRH28M with PID 107256 (C:\Yash Patel\Bitlab-workspace\bitLabs-web-application\target\classes started by Patel in C:\Yash Patel\Bitlab-workspace\bitLabs-web-application)
+28-03-2025_20:37:22.984{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+28-03-2025_20:37:22.985{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+28-03-2025_20:37:24.060{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-03-2025_20:37:24.220{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 150 ms. Found 37 JPA repository interfaces.
+28-03-2025_20:37:25.154{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+28-03-2025_20:37:25.165{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:37:25.166{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+28-03-2025_20:37:25.166{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+28-03-2025_20:37:25.334{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+28-03-2025_20:37:25.334{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2292 ms
+28-03-2025_20:37:28.862{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+28-03-2025_20:37:29.358{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f7fcec2
+28-03-2025_20:37:29.360{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+28-03-2025_20:37:29.476{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+28-03-2025_20:37:29.562{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+28-03-2025_20:37:29.765{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-03-2025_20:37:29.989{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-03-2025_20:37:41.672{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-03-2025_20:37:41.686{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:37:42.265{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+28-03-2025_20:37:42.326{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-03-2025_20:37:43.002{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+28-03-2025_20:37:43.043{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+28-03-2025_20:37:45.782{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9cdef42, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dd43529, org.springframework.security.web.context.SecurityContextPersistenceFilter@46ddf016, org.springframework.security.web.header.HeaderWriterFilter@3c9788c, org.springframework.security.web.authentication.logout.LogoutFilter@21624bde, com.talentstream.filter.JwtRequestFilter@74fbee59, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36072e34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c78688b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b7b0f85, org.springframework.security.web.session.SessionManagementFilter@4403cf9a, org.springframework.security.web.access.ExceptionTranslationFilter@5b6606fd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25370af5]
+28-03-2025_20:37:46.184{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:37:46.206{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+28-03-2025_20:37:47.168{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 24.607 seconds (JVM running for 25.536)
+28-03-2025_20:37:47.252{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-03-2025_20:37:47.253{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+28-03-2025_20:37:47.254{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 1 ms
+28-03-2025_20:37:47.273{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+28-03-2025_20:37:47.273{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+28-03-2025_20:37:47.273{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+28-03-2025_20:38:05.577{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+28-03-2025_20:38:05.578{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+28-03-2025_20:38:05.578{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+28-03-2025_20:38:05.646{UTC}|report-tool|INFO ||c.t.c.ApplicantProfileController|Attempting to login with email: patelyash250702@gmail.com
+28-03-2025_20:38:05.724{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|Handling Google Sign-In for email: patelyash250702@gmail.com
+28-03-2025_20:38:05.896{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|Google Sign-In successful for: patelyash250702@gmail.com
+28-03-2025_20:38:14.431{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:38:14.431{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:38:14.431{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:38:14.442{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_20:38:14.577{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_20:38:14.983{UTC}|report-tool|INFO ||c.t.c.RazorPayController|New Order Created Successfully Inserting data into Table
+28-03-2025_20:38:14.983{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling save order method to store data into db
+28-03-2025_20:38:15.198{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning success response 
+28-03-2025_20:39:43.251{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMTg4NzYwLCJpYXQiOjE3NDMxNTI3NjB9.a7zLSI5DCJY4n-W8KQJU1vK_olN2yTU-y4bODeWTkX0
+28-03-2025_20:39:43.251{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMTg4NzYwLCJpYXQiOjE3NDMxNTI3NjB9.a7zLSI5DCJY4n-W8KQJU1vK_olN2yTU-y4bODeWTkX0
+28-03-2025_20:39:43.251{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:39:43.257{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Coming to verify payment Controller With Request body
+28-03-2025_20:39:43.365{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling service method to verify payment .
+28-03-2025_20:39:43.369{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Payment verified Successfully updating ordr status created to captured
+28-03-2025_20:39:44.231{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning Success Response
+28-03-2025_20:39:55.973{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:39:55.974{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:39:55.974{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:39:55.976{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_20:39:56.050{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_20:39:56.116{UTC}|report-tool|INFO ||c.t.c.RazorPayController|New Order Created Successfully Inserting data into Table
+28-03-2025_20:39:56.116{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling save order method to store data into db
+28-03-2025_20:39:56.225{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning success response 
+28-03-2025_20:42:14.899{UTC}|report-tool|ERROR||o.a.c.c.C.[.[.[.[dispatcherServlet]|Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2025-03-09T07:34:21Z. Current time: 2025-03-28T20:42:14Z, a difference of 1688873894 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481)
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541)
+	at com.talentstream.service.JwtUtil.extractAllClaims(JwtUtil.java:33)
+	at com.talentstream.service.JwtUtil.extractClaim(JwtUtil.java:29)
+	at com.talentstream.service.JwtUtil.extractUsername(JwtUtil.java:21)
+	at com.talentstream.service.JwtUtil$$FastClassBySpringCGLIB$$f363fddb.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.talentstream.aop.AspectAop.logAroundMethod(AspectAop.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.talentstream.service.JwtUtil$$EnhancerBySpringCGLIB$$27e4441a.extractUsername(<generated>)
+	at com.talentstream.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:42:18.701{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:42:18.701{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:42:18.701{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:42:18.703{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Get Request to fetch payment details on id: 
+28-03-2025_20:42:18.775{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Payment Details Fetched Successfully returning details to client[com.talentstream.entity.RazorPayOrder@3d039207, com.talentstream.entity.RazorPayOrder@2c9d16b5, com.talentstream.entity.RazorPayOrder@2253b4fc]
+28-03-2025_20:42:43.109{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:42:43.110{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:42:43.111{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:42:43.114{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Get Request to fetch payment details on id: 
+28-03-2025_20:42:43.209{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Payment Details Fetched Successfully returning details to client[com.talentstream.entity.RazorPayOrder@3284dac1]
+28-03-2025_20:43:05.435{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:43:05.435{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:43:05.435{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:43:05.437{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Get Request to fetch payment details on id: 
+28-03-2025_20:43:05.477{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Payment details not found for recruiter id: 
+28-03-2025_20:43:19.276{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+28-03-2025_20:43:19.281{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:43:19.281{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+28-03-2025_20:43:19.283{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+28-03-2025_20:43:19.285{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [idle-connection-reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper$ReaperTask.run(IdleConnectionReaper.java:151)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:43:19.286{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:43:19.286{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:488)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:43:19.286{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:43:19.289{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:43:19.311{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:43:19.312{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+28-03-2025_20:43:19.368{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+28-03-2025_20:57:30.531{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+28-03-2025_20:57:30.551{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 21.0.6 on DESKTOP-2JRH28M with PID 73132 (C:\Yash Patel\Bitlab-workspace\bitLabs-web-application\target\classes started by Patel in C:\Yash Patel\Bitlab-workspace\bitLabs-web-application)
+28-03-2025_20:57:30.551{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+28-03-2025_20:57:30.552{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+28-03-2025_20:57:31.979{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-03-2025_20:57:32.150{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 147 ms. Found 37 JPA repository interfaces.
+28-03-2025_20:57:33.129{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+28-03-2025_20:57:33.143{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:57:33.144{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+28-03-2025_20:57:33.144{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+28-03-2025_20:57:33.322{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+28-03-2025_20:57:33.322{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 2706 ms
+28-03-2025_20:57:36.226{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+28-03-2025_20:57:36.725{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a71ebf1
+28-03-2025_20:57:36.730{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+28-03-2025_20:57:37.005{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+28-03-2025_20:57:37.097{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+28-03-2025_20:57:37.518{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-03-2025_20:57:37.749{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-03-2025_20:57:45.417{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-03-2025_20:57:45.433{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:57:46.038{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+28-03-2025_20:57:46.180{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-03-2025_20:57:46.981{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+28-03-2025_20:57:47.027{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+28-03-2025_20:57:48.062{UTC}|report-tool|WARN ||o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayController': Unsatisfied dependency expressed through field 'razorPayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+28-03-2025_20:57:48.068{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:57:48.070{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+28-03-2025_20:57:48.153{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+28-03-2025_20:57:48.157{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+28-03-2025_20:57:48.164{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [idle-connection-reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper$ReaperTask.run(IdleConnectionReaper.java:151)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:57:48.174{UTC}|report-tool|INFO ||o.s.b.a.l.ConditionEvaluationReportLoggingListener|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+28-03-2025_20:57:48.194{UTC}|report-tool|ERROR||o.s.b.SpringApplication|Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayController': Unsatisfied dependency expressed through field 'razorPayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.talentstream.TalentStreamApplication.main(TalentStreamApplication.java:36)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1085)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiter_idAndisActive(java.lang.Long,java.lang.Boolean)! No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:119)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:259)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'recruiter' found for type 'JobRecruiter'; Did you mean 'recruiterId'; Traversed path: RazorPayOrder.jobRecruiter
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:91)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:438)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:398)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:370)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:349)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:384)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:385)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+28-03-2025_20:58:35.865{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+28-03-2025_20:58:35.881{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 21.0.6 on DESKTOP-2JRH28M with PID 21816 (C:\Yash Patel\Bitlab-workspace\bitLabs-web-application\target\classes started by Patel in C:\Yash Patel\Bitlab-workspace\bitLabs-web-application)
+28-03-2025_20:58:35.881{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+28-03-2025_20:58:35.881{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+28-03-2025_20:58:36.816{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-03-2025_20:58:36.973{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 137 ms. Found 37 JPA repository interfaces.
+28-03-2025_20:58:37.774{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+28-03-2025_20:58:37.783{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:58:37.783{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+28-03-2025_20:58:37.783{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+28-03-2025_20:58:37.913{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+28-03-2025_20:58:37.913{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1980 ms
+28-03-2025_20:58:40.706{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+28-03-2025_20:58:41.145{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16890f00
+28-03-2025_20:58:41.147{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+28-03-2025_20:58:41.269{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+28-03-2025_20:58:41.329{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+28-03-2025_20:58:41.501{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-03-2025_20:58:41.632{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-03-2025_20:58:49.927{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-03-2025_20:58:49.940{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:58:50.525{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+28-03-2025_20:58:50.579{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-03-2025_20:58:51.214{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+28-03-2025_20:58:51.258{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+28-03-2025_20:58:52.231{UTC}|report-tool|WARN ||o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayController': Unsatisfied dependency expressed through field 'razorPayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+28-03-2025_20:58:52.236{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:58:52.238{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+28-03-2025_20:58:52.347{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
+28-03-2025_20:58:52.350{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+28-03-2025_20:58:52.355{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [idle-connection-reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper$ReaperTask.run(IdleConnectionReaper.java:151)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_20:58:52.366{UTC}|report-tool|INFO ||o.s.b.a.l.ConditionEvaluationReportLoggingListener|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+28-03-2025_20:58:52.387{UTC}|report-tool|ERROR||o.s.b.SpringApplication|Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayController': Unsatisfied dependency expressed through field 'razorPayService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.talentstream.TalentStreamApplication.main(TalentStreamApplication.java:36)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'razorPayService': Unsatisfied dependency expressed through field 'payRepositry'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'razorPayRepositry' defined in com.talentstream.repository.RazorPayRepositry defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 34 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean); Reason: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:107)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:95)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1085)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:97)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:87)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:87)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:365)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:323)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:231)
+	at org.springframework.data.util.Lazy.get(Lazy.java:115)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:329)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 44 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract boolean com.talentstream.repository.RazorPayRepositry.existsByJobRecruiter_recruiterIdAndisActive(java.lang.Long,java.lang.Boolean)! No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:119)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:259)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:93)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:103)
+	... 66 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'andisActive' found for type 'Long'; Traversed path: RazorPayOrder.jobRecruiter.recruiterId
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:91)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:438)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:448)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:471)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:414)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:398)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:370)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:349)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:332)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:384)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:385)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 70 common frames omitted
+28-03-2025_20:59:13.765{UTC}|report-tool|INFO ||o.h.v.i.u.Version|HV000001: Hibernate Validator 6.2.5.Final
+28-03-2025_20:59:13.781{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Starting TalentStreamApplication using Java 21.0.6 on DESKTOP-2JRH28M with PID 111128 (C:\Yash Patel\Bitlab-workspace\bitLabs-web-application\target\classes started by Patel in C:\Yash Patel\Bitlab-workspace\bitLabs-web-application)
+28-03-2025_20:59:13.781{UTC}|report-tool|DEBUG||c.t.TalentStreamApplication|Running with Spring Boot v2.7.9, Spring v5.3.25
+28-03-2025_20:59:13.782{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|No active profile set, falling back to 1 default profile: "default"
+28-03-2025_20:59:14.680{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+28-03-2025_20:59:14.860{UTC}|report-tool|INFO ||o.s.d.r.c.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 169 ms. Found 37 JPA repository interfaces.
+28-03-2025_20:59:15.647{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+28-03-2025_20:59:15.655{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:59:15.656{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Starting service [Tomcat]
+28-03-2025_20:59:15.656{UTC}|report-tool|INFO ||o.a.c.c.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.71]
+28-03-2025_20:59:15.798{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring embedded WebApplicationContext
+28-03-2025_20:59:15.798{UTC}|report-tool|INFO ||o.s.b.w.s.c.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1963 ms
+28-03-2025_20:59:18.564{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Starting...
+28-03-2025_20:59:18.943{UTC}|report-tool|INFO ||c.z.h.p.HikariPool|HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b0575d0
+28-03-2025_20:59:18.946{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Start completed.
+28-03-2025_20:59:19.049{UTC}|report-tool|INFO ||o.h.j.i.u.LogHelper|HHH000204: Processing PersistenceUnitInfo [name: default]
+28-03-2025_20:59:19.094{UTC}|report-tool|INFO ||o.h.Version|HHH000412: Hibernate ORM core version 5.6.15.Final
+28-03-2025_20:59:19.259{UTC}|report-tool|INFO ||o.h.a.c.Version|HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+28-03-2025_20:59:19.384{UTC}|report-tool|INFO ||o.h.d.Dialect|HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+28-03-2025_20:59:26.756{UTC}|report-tool|INFO ||o.h.e.t.j.p.i.JtaPlatformInitiator|HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+28-03-2025_20:59:26.783{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Initialized JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_20:59:27.334{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Filter 'jwtRequestFilter' configured for use
+28-03-2025_20:59:27.383{UTC}|report-tool|WARN ||o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration|spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+28-03-2025_20:59:28.039{UTC}|report-tool|INFO ||o.s.d.p.DefaultProjectionInformation$PropertyDescriptorSource|Couldn't read class metadata for interface java.util.Map. Input property calculation might fail
+28-03-2025_20:59:28.084{UTC}|report-tool|DEBUG||c.t.c.ApplicantProfileController|ApplicantProfileController initialized
+28-03-2025_20:59:30.753{UTC}|report-tool|INFO ||o.s.s.w.DefaultSecurityFilterChain|Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18fb1034, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d9a80d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a8dfd2e, org.springframework.security.web.header.HeaderWriterFilter@743e5472, org.springframework.security.web.authentication.logout.LogoutFilter@f019e01, com.talentstream.filter.JwtRequestFilter@6142b9dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d446ba9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37b48520, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78b5c29f, org.springframework.security.web.session.SessionManagementFilter@3230d2b2, org.springframework.security.web.access.ExceptionTranslationFilter@4b847324, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39ad5a7d]
+28-03-2025_20:59:31.184{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_20:59:31.206{UTC}|report-tool|INFO ||o.s.b.w.e.t.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+28-03-2025_20:59:32.104{UTC}|report-tool|INFO ||c.t.TalentStreamApplication|Started TalentStreamApplication in 18.71 seconds (JVM running for 19.546)
+28-03-2025_20:59:32.184{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+28-03-2025_20:59:32.185{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+28-03-2025_20:59:32.187{UTC}|report-tool|INFO ||o.s.w.s.DispatcherServlet|Completed initialization in 2 ms
+28-03-2025_20:59:32.204{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: null
+28-03-2025_20:59:32.204{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: null
+28-03-2025_20:59:32.204{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: null
+28-03-2025_20:59:49.533{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:59:49.534{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_20:59:49.534{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_20:59:49.623{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_20:59:49.702{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_20:59:49.772{UTC}|report-tool|ERROR||c.t.c.RazorPayController|Some error occured
+28-03-2025_21:00:15.196{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:15.197{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:15.198{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_21:00:15.200{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_21:00:15.267{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_21:00:15.642{UTC}|report-tool|INFO ||c.t.c.RazorPayController|New Order Created Successfully Inserting data into Table
+28-03-2025_21:00:15.642{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling save order method to store data into db
+28-03-2025_21:00:15.783{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning success response 
+28-03-2025_21:00:18.867{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:18.868{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:18.868{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_21:00:18.870{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_21:00:18.952{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_21:00:19.062{UTC}|report-tool|INFO ||c.t.c.RazorPayController|New Order Created Successfully Inserting data into Table
+28-03-2025_21:00:19.062{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling save order method to store data into db
+28-03-2025_21:00:19.164{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning success response 
+28-03-2025_21:00:21.362{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Authorization Header: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:21.362{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|JWT: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwYXRlbHlhc2gyNTA3MDJAZ21haWwuY29tIiwiZXhwIjoxNzQzMjEwNDg2LCJpYXQiOjE3NDMxNzQ0ODZ9.Q03vRagSzNuUoXqGAsRZxHFfLQnsFSuVbPXLR0MVYzw
+28-03-2025_21:00:21.362{UTC}|report-tool|DEBUG||c.t.f.JwtRequestFilter|Username: patelyash250702@gmail.com
+28-03-2025_21:00:21.364{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Retrieved all jobs successfully.
+28-03-2025_21:00:21.420{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling RazorPay Service method to create order with details
+28-03-2025_21:00:21.519{UTC}|report-tool|INFO ||c.t.c.RazorPayController|New Order Created Successfully Inserting data into Table
+28-03-2025_21:00:21.519{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Calling save order method to store data into db
+28-03-2025_21:00:21.607{UTC}|report-tool|INFO ||c.t.c.RazorPayController|Returning success response 
+28-03-2025_21:01:15.365{UTC}|report-tool|INFO ||o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin|Application shutdown requested.
+28-03-2025_21:01:15.373{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_21:01:15.373{UTC}|report-tool|INFO ||o.a.c.c.StandardService|Stopping service [Tomcat]
+28-03-2025_21:01:15.375{UTC}|report-tool|INFO ||o.a.c.c.C.[.[.[/]|Destroying Spring FrameworkServlet 'dispatcherServlet'
+28-03-2025_21:01:15.379{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [idle-connection-reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Thread.sleep0(Native Method)
+ java.base/java.lang.Thread.sleep(Thread.java:509)
+ software.amazon.awssdk.http.apache.internal.conn.IdleConnectionReaper$ReaperTask.run(IdleConnectionReaper.java:151)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_21:01:15.380{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1763)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_21:01:15.381{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [OkHttp TaskRunner] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:488)
+ okhttp3.internal.concurrent.TaskRunner$RealBackend.coordinatorWait(TaskRunner.kt:294)
+ okhttp3.internal.concurrent.TaskRunner.awaitTaskToRun(TaskRunner.kt:218)
+ okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:59)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+28-03-2025_21:01:15.381{UTC}|report-tool|WARN ||o.a.c.l.WebappClassLoaderBase|The web application [ROOT] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:488)
+ okio.AsyncTimeout$Companion.awaitTimeout$okio(AsyncTimeout.kt:316)
+ okio.AsyncTimeout$Watchdog.run(AsyncTimeout.kt:187)
+28-03-2025_21:01:15.383{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_21:01:15.388{UTC}|report-tool|INFO ||o.a.c.h.Http11NioProtocol|Destroying ProtocolHandler ["http-nio-0.0.0.0-8080"]
+28-03-2025_21:01:15.418{UTC}|report-tool|INFO ||o.s.o.j.LocalContainerEntityManagerFactoryBean|Closing JPA EntityManagerFactory for persistence unit 'default'
+28-03-2025_21:01:15.420{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown initiated...
+28-03-2025_21:01:15.458{UTC}|report-tool|INFO ||c.z.h.HikariDataSource|HikariPool-1 - Shutdown completed.
